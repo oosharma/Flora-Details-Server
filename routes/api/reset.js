@@ -46,6 +46,7 @@ router.post("/", (req, res) => {
         // } else {
         //   resetUrl = `http://localhost:3000/?token-${token} `;
         // }
+
         const mailOptions = {
           from: "floradetailsweb@gmail.com",
           to: `${user.email}`,
